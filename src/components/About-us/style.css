@@ -1,0 +1,33 @@
+.about-us-content-row{
+    margin-top: 27px!important;
+}
+.about-us-image{
+    height: 499px ;
+    object-fit: cover;
+}
+.about-us-heading {
+    font-family: Montserrat, serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.for-mobile {
+    display: none;
+}
+
+.about-us-content-row > .text-col > p {
+    margin-bottom: 12px;
+}
+
+@media(max-width: 767px) {
+    .for-web {
+        display: none;
+    }
+    .about-us-image {
+        margin-bottom: 16px;
+    }
+    .for-mobile {
+        display: block;
+    }
+}

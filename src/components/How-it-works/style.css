@@ -1,0 +1,127 @@
+.how-it-works-sections {
+    padding: 100px 0;
+}
+
+.how-it-works-sections > .first {
+    display: flex;
+    align-items: flex-end;
+}
+
+.paragraph {
+    text-transform: uppercase;
+    font-family: Montserrat, serif;
+    font-weight: 900;
+}
+
+.how-it-works-sections > .how-it-works-row > .how-it-works-card-image {
+    height: 500px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0 !important;
+    padding-left: 0;
+}
+
+.how-it-works-sections > .how-it-works-row > .how-it-works-card-image img {
+    height: 100%;
+}
+
+.how-it-works-sections > .how-it-works-row > .how-it-works-card {
+    color: #121127;
+    background-color: #f9f9f9;
+}
+
+.how-it-works-sections > .first > .how-it-works-card-first {
+    padding: 40px 55px;
+}
+
+.how-it-works-sections > .second > .how-it-works-card-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 120px;
+}
+
+.how-it-works-sections > .how-it-works-row > .how-it-works-card > .how-it-works-card-step-title {
+    color: #7d7d7d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.how-it-works-sections > .how-it-works-row > .how-it-works-card > .how-it-works-card-title {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.how-it-works-sections > .how-it-works-row > .how-it-works-card > .how-it-works-card-text {
+    font-size: 1rem;
+    line-height: 28px;
+}
+
+.btn.btn-danger.btn-valuation {
+    width: 100%;
+    margin-top: 42px;
+    text-align: left;
+    padding: 9px 13px;
+    background-color: #ed3239;
+    color: white;
+    border-radius: unset !important;
+}
+
+@media (max-width: 1024px) {
+    .how-it-works-sections > .first > .how-it-works-card-first {
+        padding: 40px 35px;
+    }
+
+    .how-it-works-sections > .how-it-works-row > .how-it-works-card > .how-it-works-card-title {
+        white-space: break-spaces;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    .how-it-works-sections > .first {
+        flex-direction: column-reverse;
+    }
+
+    .how-it-works-sections > .second > .how-it-works-card-second {
+        padding: 40px 55px;
+    }
+}
+
+@media (max-width: 540px) {
+    .how-it-works-card-image > img {
+        object-fit: cover;
+        width: 94%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .how-it-works-sections > .how-it-works-row > .how-it-works-card > .how-it-works-card-title {
+        font-size: 1.5rem;
+    }
+
+    .btn.btn-danger.btn-valuation {
+        width: 100%;
+        margin-top: 42px;
+        text-align: left;
+        padding: 9px 13px;
+        background-color: #ed3239;
+        color: white;
+        border-radius: unset !important;
+        display: block;
+        width: 93%;
+        margin: 0 auto;
+        margin-top: 42px;
+    }
+
+    @media (max-width: 340px) {
+        .how-it-works-card-image > img {
+            object-fit: cover;
+            width: 100%!important;
+        }
+    }
+
+} 

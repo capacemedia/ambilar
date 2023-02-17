@@ -1,0 +1,26 @@
+.stock-heading{
+    text-align: center;
+    font-size: 29px;
+    margin: 32px 12px;
+}
+.catalog-paragraph{
+    padding-top: 156px;
+    font-size: 40px;
+}
+.catalog-container{
+    margin-top: 115px;
+}
+
+.catalog-main-img {
+    height: 505px;
+}
+
+@media(max-width: 767px) {
+    .catalog-main-img {
+        height: 100%;
+        padding-top: 20px;
+    }
+    .catalog-paragraph{
+        padding: 10px 0;
+    }
+}

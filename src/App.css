@@ -1,0 +1,70 @@
+* p, span, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Montserrat';
+
+}
+#root {
+  overflow: hidden;
+}
+img{
+  width: 100%;
+}
+.home {
+  overflow: hidden;
+}
+.app {
+  height: 70vh;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #9da8af;
+  margin: 54px 29px 18px 13px;
+}
+::placeholder {
+  color: rgb(176 185 189);
+  font-family: Montserrat;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+h2.stock-heading {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+.stock-paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ed3239;
+  margin-bottom: 4px;
+}
+
+.paragraph {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ED3239;
+}
+
+h2.section-title {
+  text-align: left;
+  margin: 0 0 45px 0;
+}
+
+@media(max-width: 540px) {
+  h2.section-title {
+    font-size: 32px;
+    padding: 12px 0;
+  }
+}
+
+@media(max-width: 420px) {
+  h2.section-title {
+    font-size: 28px;
+  }
+}

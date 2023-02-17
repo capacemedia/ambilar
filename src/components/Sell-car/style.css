@@ -1,0 +1,124 @@
+.sell-car{
+    background: #F9F9F9;
+    margin-top: 130px;
+    margin-bottom: 90px;
+    padding: 50px 0;
+    position: relative;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 26px;
+}
+.contact-section-paragraph{
+    text-align: start!important;
+}
+ 
+.form-heading {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.contact-section input {
+    width: 100%;
+    height: 50px;
+    padding: 2px 2px 2px 15px;
+    border-bottom: 1px solid #eaeaea;
+    margin: 10px 0 33px 0;
+    background-color: white!important;
+}
+
+.contact-form-btn {
+    color: white;
+    width: 100%;
+    text-align: start;
+    padding: 8px 17px;
+    border: 2px solid #ED3239;
+    background: linear-gradient(12.99deg, #ED3239 49.3%, #F9650B 164.91%);
+}
+
+.sell-car-content {
+    margin: 0 auto;
+}
+
+.sell-car > .back-to-home{
+    width: auto;
+    cursor: pointer;
+    position: absolute;
+    z-index: 999;
+}
+
+.sell-car > .back-to-home > i {
+    margin-right: 12px;
+    margin-left: 32px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmed-contact-container{
+    margin: 75px auto;
+    padding: 0 32px;
+}
+.find-your-next-car{
+    color: white;
+    width: 218px;
+    margin: 0 auto;
+    text-align: start;
+    padding: 8px 17px;
+    border: 2px solid #ED3239;
+    background: linear-gradient(12.99deg, #ED3239 49.3%, #F9650B 164.91%);
+}
+.or{
+    display: contents;
+    line-height: 69px;
+    color: rgb(157, 157, 157);
+}
+.sell-car-btn{
+    border: 0;
+    width: 494px;
+    color: white;
+    padding: 9px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    background: linear-gradient(12.99deg, #ed3239 49.3%, #f9650b 164.91%);
+    display: flex;
+    justify-content: space-between;
+    margin-left: -12px;
+    margin: 0 auto;
+    margin-top: 38px;
+}
+
+.email-tel {
+    display: flex;
+}
+
+.email-tel > span {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+@media(max-width: 540px) {
+    .email-tel {
+        display: unset;
+    }
+
+    .email-tel > input:first-child {
+        margin-bottom: 10px;
+    }
+    .contact-section input {
+        width: 100%;
+        height: 50px;
+        padding: 2px 2px 2px 15px;
+        border-bottom: 1px solid #eaeaea;
+        margin: 10px 0 7px 0;
+        background-color: white!important;
+    }
+}
